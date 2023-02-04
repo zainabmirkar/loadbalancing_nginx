@@ -11,3 +11,7 @@ app.get('/test1', function (req, res) {
 app.get('/test2', function (req, res) {
     res.send('{ "response": "Server 2" }');
 });
+app.listen(3000, () => {
+    console.log('Example app listening on port 3000!');
+  });
+  
